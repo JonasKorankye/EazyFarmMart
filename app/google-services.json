@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "280880863749",
+    "firebase_url": "https://eazyfarmmart.firebaseio.com",
+    "project_id": "eazyfarmmart",
+    "storage_bucket": "eazyfarmmart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280880863749:android:1246b870d9632f1a",
+        "android_client_info": {
+          "package_name": "com.farmmart.jonas.eazyfarmmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280880863749-mclpo92rfqs9n6uhhfiiqn2ai6487n10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJxflx70H16SaozgyfykEnDqGdBq9ueOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280880863749-mclpo92rfqs9n6uhhfiiqn2ai6487n10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

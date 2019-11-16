@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="17sp" />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/arrow"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:src="@drawable/trans_enquiry_blue" />-->
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+<!--"#600611...gn brown"-->
+
+    <TextView
+        android:id="@+id/botBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:gravity="start"
+        android:layout_marginRight="10dip"
+        android:layout_marginEnd="10dip"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:layout_marginRight="10dip"
+        android:layout_marginEnd="10dip"
+        android:visibility="visible"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/qty"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/price"
+        android:gravity="center"
+        android:layout_marginRight="10dip"
+        android:layout_marginEnd="10dip"
+        android:layout_marginTop="24dp"
+        android:visibility="visible"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+
+
+
+    <!-- <ImageView
+        android:id="@+id/flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="expand"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="10dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="5dp" /> -->
+
+
+</RelativeLayout>

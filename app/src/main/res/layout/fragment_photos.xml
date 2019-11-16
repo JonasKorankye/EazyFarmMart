@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#d0d4db">
+
+
+        <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/addCardView"
+            style="@style/CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/enquireTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/add_farm_produce"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#444444"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp" />
+
+                <View
+                    android:id="@+id/lineAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/colorAccent" />
+
+                <LinearLayout
+                    android:id="@+id/ll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:id="@+id/choose_farmCat"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:background="@drawable/spinner_background" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <EditText
+                            android:id="@+id/editText1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="20"
+                            android:focusable="true"
+                            android:hint="@string/produce_name"
+                            android:inputType="textCapCharacters"
+                            android:textColor="@color/black_transparent_80">
+
+                        </EditText>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <EditText
+                            android:id="@+id/editText2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="15"
+                            android:hint="@string/selling_price_ghs"
+                            android:inputType="number"
+                            android:textColor="@color/black_transparent_80">
+
+                        </EditText>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <EditText
+                            android:id="@+id/editText3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="15"
+                            android:hint="@string/available_quantity"
+                            android:inputType="text"
+                            android:textColor="@color/black_transparent_80">
+
+                        </EditText>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:weightSum="4">
+
+                        <Button
+                            android:id="@+id/viewButton"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_weight="2"
+                            android:padding="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginTop="15sp"
+                            android:background="@color/colorAccent"
+                            android:textAllCaps="false"
+                            android:text="@string/view"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#FFFFFF"
+                            android:visibility="gone"
+                            android:layout_marginRight="10dp" />
+
+
+                        <Button
+                            android:id="@+id/addButton"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="15sp"
+                            android:layout_weight="2"
+                            android:background="@color/colorAccent"
+                            android:text="@string/add"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#FFFFFF" />
+
+
+                    </LinearLayout>
+
+                    <!--<View-->
+                        <!--android:id="@+id/lineAddress1"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="0.5dp"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:background="@color/colorAccent" />-->
+
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterToCardView"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="9dp"
+        style="@style/CardView"
+        app:cardCornerRadius="5dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+           >
+
+            <TextView
+                android:id="@+id/toTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/farm_produce_records"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#444444"
+                />
+
+            <View
+                android:id="@+id/lineToAddress"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorAccent"
+                />
+
+            <RadioGroup
+                android:id="@+id/radio_custToDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="16dp"
+
+                >
+
+                <RadioButton
+                    android:id="@+id/radio_to_custNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/view_produce_list"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/radio_to_BBAN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View Uploads"
+                    android:padding="5dp"
+                    android:layout_marginBottom="16dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginLeft="15dp" />
+
+                <!--<RadioButton-->
+                    <!--android:id="@+id/radio_to_mobi"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/mobi"-->
+                    <!--android:layout_marginStart="15dp"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:onClick="onToRadioButtonClicked"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceSmall" />-->
+
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+

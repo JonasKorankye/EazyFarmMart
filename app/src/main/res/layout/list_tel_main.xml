@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        />
+
+  <TextView
+      android:id="@+id/text"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:background="#95b9a6"
+      android:text="@string/view_farmer_details_and_make_a_purchase"
+      android:textColor="@color/white"
+      android:paddingTop="15dp"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textAlignment="center"
+      android:layout_gravity="center"/>
+    <ExpandableListView
+        android:id="@+id/liWalExp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:childDivider="#00000000"
+        android:focusable="false"
+        android:clickable="false"
+        />
+
+</LinearLayout>

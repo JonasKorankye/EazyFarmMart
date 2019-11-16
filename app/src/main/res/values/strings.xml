@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">EazzyFarms Mart</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum of 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_about">Brief Farm Description</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered !</string>
+    <string name="btn_link_to_login">Already registered. Login !</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">Enter your email Id and we will send you an email to change the password</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">My Profile</string>
+    <string name="nav_photos">My Farm Produce</string>
+    <string name="nav_movies">My Sales Record</string>
+    <string name="nav_notifications">My Edu Content</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>My Profile</item>
+        <item>My Products</item>
+        <item>My Sales Record</item>
+        <item>My Edu Content</item>
+        <item>Settings</item>
+    </string-array>
+
+
+
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="hint_delivery">Home Delivery</string>
+    <string name="farm_location">Farm Location</string>
+    <string name="farm_name">Farm Name</string>
+    <string name="add">Save &amp; Continue</string>
+    <string name="view">View</string>
+    <string name="add_farm_produce">Add Farm Produce</string>
+    <string name="produce_name">Produce Name</string>
+    <string name="selling_price_ghs">Selling Price (GHS)</string>
+    <string name="available_quantity">Available Quantity</string>
+    <string name="amount">Amount</string>
+    <string name="qty">Quantity</string>
+    <string name="view_farm_produce">Produce in Stock</string>
+    <string name="cancel">CANCEL</string>
+    <string name="call">CALL</string>
+    <string name="confirmed_purchase">CONFIRMED PURCHASE</string>
+    <string name="sales">Sales</string>
+
+
+
+
+    <string name="about_eazzy">
+        EazzyFarms Mart is a revolutionary online farmers’ market app, connecting local farmers and their fresh and delicious crops with food lovers. By directly connecting farmers with consumers, we sell the freshest fruits, vegetables, herbs and even meat. We also avoid unnecessary and expensive middlemen, and both sides end up benefiting.
+\n \n
+        This is how EazzyFarms Mart works: each farmer opens their own store on the app, free of charge and with no fees and adds their products and prices and delivery options. Consumers go onto the app to find their favourite farms and products, place a call with a click of a button and make your purchase. It’s that easy!
+
+
+    \n \n   <b> Benefits </b>
+\n
+"EazzyFarms Mart is a win-win situation: farmers earn what they deserve and consumers get the best products for the best prices. "
+\n \n
+\n
+"So, what are you waiting for? Join the EazzyFarms Mart community now!"
+\n \n
+
+</string>
+    <string name="view_farmer_details_and_make_a_purchase">View Farmer details and make a Purchase</string>
+    <string name="farm_produce_records">Farm Produce Records:</string>
+    <string name="view_produce_list">View Produce List</string>
+    <string name="find_farmers_buy_produce"><![CDATA[Find Farmers & Buy Produce]]></string>
+    <string name="select_produce_call_for_delivery"><![CDATA[Select Produce & Call for Delivery]]></string>
+
+
+</resources>
+
+
